@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #612406;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.flexible-article {
+    width: 80%;
+    margin-top: 20vh;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #fbf7e3;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.flexible-article .article {
+    height: 50vh;
+}
+
+.flexible-article .article h2 {
+    margin-bottom: 30px;
+}
